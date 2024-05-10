@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #f5f5f5;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #111827;
+}
+
+.green {
+  color: #51ff00;
+}
+
+section > div {
+  margin: auto 7%;
+}
+
+.text-center {
+  text-align: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.bigText {
+  font-size: 1.8rem;
+}
+.small-gap{
+  gap: 1rem;
+}
+/* HEADER */
+header {
+  padding: 2rem 7%;
+  align-items: center;
+  justify-content: center;
+  background-color: #050505;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.logo {
+  position: absolute;
+  left: 7%;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  position: center;
+  gap: 2rem;
+}
+
+/* HEADER */
+
+/* MAIN */
+#utama {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/bg-main.jpg');
+  background-size: cover;
+  position: center;
+
+}
+
+.profilMe {
+  align-items: center;
+}
+.ppMe {
+  width: 15%;
+}
+
+.ppMe > img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 50%;
+  border: 2px solid #51ff00;
+}
+
+.textMe {
+  gap: 0.7rem;
+  margin-top: 1rem;
+  width: 50%;
+  text-align: center;
+}
+.textMe p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.sosmedMe {
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 1.5rem;
+}
+/* MAIN */
+
+/* ABOUT */
+#about {
+  background-color: #2c3240;
+}
+
+.container-about {
+  padding: 5% 0;
+  gap: 2rem;
+}
+
+.aboutMeGap {
+  gap: 3rem;
+}
+.about-pp {
+  width: 30%;
+}
+
+.about-pp > img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 50%;
+}
+.education-pp {
+  width: 15%;
+}
+.education-pp > img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 50%;
+}
+
+.perkasa-logo {
+  width: 70%;
+  height: 70%;
+}
+/* ABOUT */
